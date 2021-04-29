@@ -1,0 +1,22 @@
+<div class= "container">
+    <div class= "row">
+        <div class="col-12 table_container">
+            <table>
+                <tr >
+                    <th class= "headingRow">Student Name</th>
+                    <th class= "headingRow">Year of Passing</th>
+                    <th class= "headingRow">Status</th>
+                    <th class= "headingRow">Department</th>
+                    <th class= "headingRow">Mark Average</th>
+                </tr>
+                <tr class="dataRow" *ngFor="let stu of students">
+                    <td>{{stu.stuName}} </td>
+                    <td>{{stu.yop}} </td>
+                    <td>{{stu.status}} </td>
+                    <td>{{stu.dept}} </td>
+                    <td>{{stu.markAvg}} </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

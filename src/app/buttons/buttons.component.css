@@ -1,0 +1,120 @@
+
+
+.container{
+    padding: 16px;
+}
+
+.btnWith3D {
+  padding: 12px 24px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 6px;
+
+}
+
+.btnWith3D:hover {
+    background-color: #3e8e41;
+    box-shadow: 3px 3px #999;
+}
+
+.btnWith3D:active{
+    background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translate3d(3px,3px,3px);
+}
+
+.btnWith2D {
+    padding: 12px 24px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 3px 3px #999;
+    margin-left: 24px;
+  }
+  
+  .btnWith2D:hover {
+      background-color: #da190b
+  }
+  
+  .btnWith2D:active{
+    background-color: #da190b;
+    box-shadow: 0 1px #666;
+    transform: translateX(3px);
+  }
+
+.primaryAction{
+    padding: 12px 24px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 24px;
+  margin-left: 24px;
+}
+
+.primaryAction:hover {
+    background-color: #3e8e41;
+}
+
+.btnWith3D:active{
+    background-color: #3e8e41;
+}
+
+.secondaryAction{
+    padding: 12px 24px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 24px;
+    margin-left: 24px;
+    border: 2px solid #4CAF50;
+    outline: none;
+}
+
+.secondaryAction:hover{
+    border-color: #3e8e41;
+    color: white;
+    background-color: #3e8e41;
+}
+
+.secondaryAction:active{
+    background-color: #3e8e41;
+}
+
+.linkButton{
+    padding: 12px 24px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 24px;
+    border: none;
+    text-decoration: underline;
+    outline: none;
+    background-color: white;
+    color: #4CAF50;
+}
+
+.linkButton:hover{
+    color:white;
+    background-color: #3e8e41;
+}
+
+.linkButton:active{
+    background-color: #3e8e41;
+}
